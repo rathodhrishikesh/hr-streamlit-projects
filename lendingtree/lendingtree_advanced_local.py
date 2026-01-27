@@ -44,7 +44,7 @@ def load_all_data():
     """Load all CPLX tables from CSV files"""
     try:
         # Path to the folder containing this script
-        BASE_DIR = Path(__file__).parent
+        BASE_DIR = Path.cwd() # Streamlit's current working directory
         
         df_leads = pd.read_csv(BASE_DIR/"cplx_leads.csv")
         df_conversions = pd.read_csv(BASE_DIR/"cplx_conversions.csv")
