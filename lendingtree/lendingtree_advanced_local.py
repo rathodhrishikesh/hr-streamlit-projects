@@ -43,12 +43,15 @@ st.markdown("""
 def load_all_data():
     """Load all CPLX tables from CSV files"""
     try:
-        df_leads = pd.read_csv("cplx_leads.csv")
-        df_conversions = pd.read_csv("cplx_conversions.csv")
-        df_customers = pd.read_csv("cplx_customers.csv")
-        df_campaigns = pd.read_csv("cplx_campaigns.csv")
-        df_partners = pd.read_csv("cplx_partners.csv")
-        df_pipeline = pd.read_csv("cplx_sales_pipeline.csv")
+        # Path to the folder containing this script
+        BASE_DIR = Path(__file__).parent
+        
+        df_leads = pd.read_csv(BASE_DIR/"cplx_leads.csv")
+        df_conversions = pd.read_csv(BASE_DIR/"cplx_conversions.csv")
+        df_customers = pd.read_csv(BASE_DIR/"cplx_customers.csv")
+        df_campaigns = pd.read_csv(BASE_DIR/"cplx_campaigns.csv")
+        df_partners = pd.read_csv(BASE_DIR/"cplx_partners.csv")
+        df_pipeline = pd.read_csv(BASE_DIR/"cplx_sales_pipeline.csv")
         
         # Convert date columns
         for df, date_cols in [
