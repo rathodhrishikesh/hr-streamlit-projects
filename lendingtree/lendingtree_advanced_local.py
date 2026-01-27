@@ -45,7 +45,8 @@ def load_all_data():
     """Load all CPLX tables from CSV files"""
     try:
         # Path to the folder containing this script
-        BASE_DIR = Path.cwd() # Streamlit's current working directory
+        BASE_DIR = Path.cwd() / "lendingtree" # Streamlit's current working directory
+        # points to github/t-mobile-device-credit/lendingtree
         
         df_leads = pd.read_csv(BASE_DIR/"cplx_leads.csv")
         df_conversions = pd.read_csv(BASE_DIR/"cplx_conversions.csv")
