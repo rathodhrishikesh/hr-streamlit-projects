@@ -1,0 +1,6 @@
+partner_id,partner_name,region,tier,created_date
+1,LenderA,West,Gold,2023-04-13
+2,LenderB,East,Silver,2024-03-11
+3,LenderC,Midwest,Gold,2023-09-28
+4,LenderD,South,Bronze,2023-04-17
+5,LenderE,West,Silver,2023-03-13
