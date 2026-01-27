@@ -91,7 +91,7 @@ with col1:
 with col2:
     st.metric("Status", "Live", delta=f"{len(data['leads']):,} Leads")
 with col3:
-    st.image("lendingtree-logo.jpeg", width=150)
+    st.image(Path.cwd() / "lendingtree" / "lendingtree-logo.jpeg", width=150)
 
 # ============================================
 # SIDEBAR FILTERS
