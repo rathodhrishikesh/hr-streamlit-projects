@@ -30,4 +30,4 @@ A Streamlit-based interactive tool to forecast T-Mobile device liabilities (Jump
 
 ## 🌐 Try it Out
 
-Check out the live app here: [T-Mobile Device Liability & Credit Forecasting Tool](https://t-mobile-device-credit.streamlit.app/)  
+Check out the live app here: [T-Mobile Device Liability & Credit Forecasting Tool](https://t-mobile.streamlit.app/)  
