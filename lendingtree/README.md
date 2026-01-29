@@ -13,6 +13,18 @@ Features include:
 - A/B test analysis
 - Partner and campaign scorecards
 
+## Project Screenshots
+
+### LendingTree Database Diagram
+![LendingTree Database Diagram](images/LendingTree%20Database%20Diagram.png)
+
+### 🌿 LendingTree ❄ Snowflake - Dashboard 1
+![🌿 LendingTree ❄ Snowflake 1](images/Snowflake%20LendingTree%20Streamlit%201.png)
+
+### 🌿 LendingTree ❄ Snowflake - Dashboard 2
+![🌿 LendingTree ❄ Snowflake 2](images/Snowflake%20LendingTree%20Streamlit%202.png)
+
+
 ## Data Description
 
 The dashboard reads from 6 CSV files (**120,000 rows total**):
